@@ -85,8 +85,9 @@ If you are installing on your personal Linux or BSD machine, then precompiled bi
 
 One thing to watch out for is that libraries like LAPACK, Guile, HDF5, etcetera, will often come split up into two or more packages: e.g. a `guile` package and a `guile-devel` package. You need to install **both** of these to compile software using the library.
 
-To build the latest version of MPB from source on Ubuntu 16.04, follow these [instructions](http://www.mail-archive.com/mpb-discuss@ab-initio.mit.edu/msg01039.html).
+To build the latest version of MPB from source on Ubuntu 16.04, follow these [instructions](http://www.mail-archive.com/mpb-discuss@ab-initio.mit.edu/msg01039.html). 
 
+There is a small change in the instruction set provided above, you can see the updated instuction set for Ubuntu 16.04.4 [here](https://goo.gl/dgSsqZ). I have only added two instructions (44 and 45) to the previuolsy provided instruction set. Please remember to use the genome terminal instead of a root shell for hassle free installation of MPB. Your default terminal is usually the genome terminal.  
 
 BLAS and LAPACK
 ---------------
